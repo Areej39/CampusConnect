@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const API_URL = "http://localhost:3000/api/auth"
+const API_URL = "https://privilege-light-horse.abasthan.app/api/auth"
 
 export const signupUser = async (userData) => {
     const response = await axios.post(

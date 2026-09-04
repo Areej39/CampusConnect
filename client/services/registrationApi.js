@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:3000/api/registrations";
+const API_URL = "https://privilege-light-horse.abasthan.app/api/registrations";
 
 const getAuthConfig = () => {
   const token = localStorage.getItem("token");
