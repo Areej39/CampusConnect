@@ -40,7 +40,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173",
-      "https://campus-connect-pi-ten.vercel.app/"
+      "https://campus-connect-pi-ten.vercel.app"
     ]
 
   })
