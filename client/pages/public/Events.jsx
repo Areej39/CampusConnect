@@ -47,6 +47,7 @@ const Events = () => {
       const data = await getEvents({
         search,
         category,
+        status: "published",
         page,
         limit: 6,
         sort,
